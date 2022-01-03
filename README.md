@@ -28,3 +28,19 @@
     - Time: O(NlogN), space: O(1)
 
 
+## Day 3
+* ### <a href="https://practice.geeksforgeeks.org/problems/find-the-position-of-m-th-item1723/1">Find the position of M-th item </a>
+    - strightforward using mod
+
+* ### <a href="https://practice.geeksforgeeks.org/problems/total-decoding-messages1235/1/">Total Decoding Messages </a>
+    - with <strong>option</strong> either form <em>1-digit</em>(1, 2.....9) char or <em>2-digit</em>(10, 11, ....... 26) char at a given index. can solve it using <strong>1-D dp</strong>.
+    - Time: O(N), space: O(1)
+
+* ### <a href="https://practice.geeksforgeeks.org/problems/number-following-a-pattern3126/1"> Number following a pattern </a>
+    - Backtrack the result by checking if conditons are met by putting the least digit first
+    - Time: Exponential but since bounds are small it is feasable to get AC
+
+
+
+
+
