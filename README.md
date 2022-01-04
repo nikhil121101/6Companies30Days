@@ -41,6 +41,22 @@
     - Time: Exponential but since bounds are small it is feasable to get AC
 
 
+## Day 4
+
+* ### Find max 10 numbers in a list having 10M entries
+    - Maintain a min-heap of length 10 and remove the minimum element if entries become 11
+    - Time: O(N), Space: O(1)
+
+* ### <a href="https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1/"> Find Missing And Repeating </a>
+    - place each number to its correspoinding index. at end check which number is it wrong index to get the missing number.
+    - Time: O(N), Space: O(1)
+    
+* ### Find total number of Squares in a N*N chessboard
+    - No of square of len 8 = 1, len 7 = 2^2, len i = i^2
+    - Total No of squares = 1 + 2^2 + 3^2 .... + n^2 = n(n+1)(2n+1)/6
+
+
+
 
 
 
