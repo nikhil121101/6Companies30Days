@@ -1,3 +1,5 @@
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8ESo_bXhRC4/0.jpg)](https://www.youtube.com/watch?v=8ESo_bXhRC4)
+
 ## Handles
     - leetcode: https://leetcode.com/nikhilmishra1211/
     - gfg: https://auth.geeksforgeeks.org/user/nikhilmishra1211/practice/
