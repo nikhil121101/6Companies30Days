@@ -1,4 +1,8 @@
-# Goldman Sachs
+## Handles
+    - leetcode: https://leetcode.com/nikhilmishra1211/
+    - gfg: https://auth.geeksforgeeks.org/user/nikhilmishra1211/practice/
+
+# <a href="https://docs.google.com/document/d/e/2PACX-1vRgrSl5zCl8P92F0qNuJyDF9v8aqfNd1UB9fQWTb-_aohzhPbZ0GOVbXvfnGHgzbWWdkf9gr7ZgM0lj/pub"> Goldman Sachs </a>
 
 - ## Day 1
 
@@ -73,7 +77,7 @@
         - Time: O(N), Space: O(N)
 
 
-# Amazon
+# <a href="https://docs.google.com/document/d/1KH9GVaUCET-y5SL5sg6DAnon9XwRRW-sPiyJ2p7FRLs/edit">Amazon</a>
 
 - ## Day 6
     * ### <a href="https://practice.geeksforgeeks.org/problems/maximum-profit4657/1"> Maximum Profit </a>
@@ -87,3 +91,20 @@
     * ### <a href="https://practice.geeksforgeeks.org/problems/deee0e8cf9910e7219f663c18d6d640ea0b87f87/1/"> IPL 2021 - Match Day 2 </a>
         - maintain a <em>Linked-List</em> of indexes in <strong>decreasing</strong> order of values and keeping the <em>recent</em> ones and removing the <em>old</em> ones
         - Time: O(N), Space: O(K)
+
+- ## Day 7
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/brackets-in-matrix-chain-multiplication1024/1/"> Brackets in Matrix Chain Multiplication </a>
+        - standard 2-D dp problem, just store string as well with cost.
+        - Time: O(N^3), space: O(N^3)
+
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/phone-directory4628/1/"> Phone Directory </a>
+
+        - store all the contacts in <strong>Trie</strong> along with their <em>indexes</em> in each node, now <strong>traverse</strong> the trie on string s and retrieve the <em>overlapping</em> <strong> prefix </strong> contacts from the indexes 
+        - Time: O(N*M*M), space:O(N*M), n = no of contact, m = |contact[i]|
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1"> Maximum of all subarrays of size k </a>
+
+        - same as "IPL 2021 - Match Day 2" solved on  Day 6
+    
