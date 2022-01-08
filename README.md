@@ -109,4 +109,16 @@
     * ### <a href="https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1"> Maximum of all subarrays of size k </a>
 
         - same as "IPL 2021 - Match Day 2" solved on  Day 6
-    
+
+- ## Day 8
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1"> First non-repeating character in a stream </a>
+        - Keep track of index of prev occurance of letter in an array of size 26
+        - time: O(N), space: O(1)
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/count-ways-to-nth-stairorder-does-not-matter1322/1/"> Count ways to N'th Stair(Order does not matter) </a>
+        - Since order doesnt patters only count of two matters. so ans m/2 + 1
+        - Time: O(1), space: O(1)
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/is-sudoku-valid4820/1/"> Is Sudoku Valid </a>
+        - Simulation, Time:O(N^2), Space: O(1)
