@@ -122,3 +122,19 @@
 
     * ### <a href="https://practice.geeksforgeeks.org/problems/is-sudoku-valid4820/1/"> Is Sudoku Valid </a>
         - Simulation, Time:O(N^2), Space: O(1)
+
+- ## Day 9
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1#"> Nuts and Bolts Problem </a>
+        - maintain a <strong>sorted map</strong> of <em>count</em> of char and rearrange the elements in both the array
+        - Time: O(N), Space: O(1)
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1"> Serialize and Deserialize a Binary Tree </a>
+        - Store tree as <em>level order traversal</em>
+        - Time: O(N), space: O(N)
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/column-name-from-a-given-column-number4244/1/"> Column name from a given column number </a>
+        - in each iteration keep on dividing by 26 and and map mod to char
+        - Time: O(logN), Space: O(logN)
+
+    
