@@ -137,4 +137,17 @@
         - in each iteration keep on dividing by 26 and and map mod to char
         - Time: O(logN), Space: O(logN)
 
+- ## Day 10
+
+    * ### <a href="https://leetcode.com/problems/rotting-oranges/submissions/">  Rotting Oranges </a>
+        - multi-source BFS or just simulation for given constraints
+        - Time: O(N*M), space: O(N*M)
+
+    * ### <a href="https://practice.geeksforgeeks.org/problems/burning-tree/1/">  Burning Tree </a>
+        - Reccursive Solution after storing heights
+        - Time: O(N), space: O(N)
+    * ### <a href="https://practice.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1/#"> Delete N nodes after M nodes of a linked list </a>
+        * Simulation, Time: O(N), Space: O(1)
+
+
     
