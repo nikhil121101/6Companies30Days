@@ -149,5 +149,19 @@
     * ### <a href="https://practice.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1/#"> Delete N nodes after M nodes of a linked list </a>
         * Simulation, Time: O(N), Space: O(1)
 
+# <a href="https://docs.google.com/document/d/1sSyOTeZBVJExf0oytLVGk6Z34h1usFm4QRkr1Wb5ouk/edit"> Microsoft </a>
+
+- ## Day 11
+    - ### <a href="https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1/#"> Minimum sum partition </a>
+      * 2-D DP, with dp relation: dp[sum][i] = dp[sum][i-1] || dp[sum-a[i]][i-1]
+      * Time: O(N\*S), Space: O(N\*S);
+      
+    - ### <a href="https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1/"> Prerequisite Tasks </a>
+        * Check for cycles, if there is its not possible to do all tasks.
+        * Time: O(N + E), Space: O(N + E);
+    - ### <a href="https://practice.geeksforgeeks.org/problems/rotate-by-90-degree0356/1/"> Rotate by 90 degree </a>
+      - Swaps the j'th column with (m-j-1)'th column. then transpose the matrix
+      - Time: O(M\*N), space:O(1)
+
 
     
