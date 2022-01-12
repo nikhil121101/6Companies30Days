@@ -104,7 +104,7 @@
     * ### <a href="https://practice.geeksforgeeks.org/problems/phone-directory4628/1/"> Phone Directory </a>
 
         - store all the contacts in <strong>Trie</strong> along with their <em>indexes</em> in each node, now <strong>traverse</strong> the trie on string s and retrieve the <em>overlapping</em> <strong> prefix </strong> contacts from the indexes 
-        - Time: O(N*M*M), space:O(N*M), n = no of contact, m = |contact[i]|
+        - Time: O(N\*M\*M), space:O(N\*M), n = no of contact, m = |contact[i]|
 
     * ### <a href="https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1"> Maximum of all subarrays of size k </a>
 
@@ -141,7 +141,7 @@
 
     * ### <a href="https://leetcode.com/problems/rotting-oranges/submissions/">  Rotting Oranges </a>
         - multi-source BFS or just simulation for given constraints
-        - Time: O(N*M), space: O(N*M)
+        - Time: O(N\*M), space: O(N*M)
 
     * ### <a href="https://practice.geeksforgeeks.org/problems/burning-tree/1/">  Burning Tree </a>
         - Reccursive Solution after storing heights
@@ -162,6 +162,17 @@
     - ### <a href="https://practice.geeksforgeeks.org/problems/rotate-by-90-degree0356/1/"> Rotate by 90 degree </a>
       - Swaps the j'th column with (m-j-1)'th column. then transpose the matrix
       - Time: O(M\*N), space:O(1)
+
+- ## Day 12
+    - ### <a href="https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1/"> Spirally traversing a matrix </a>
+      * Simulation, Time: O(N\*M), Space: O(N\*M)
+      
+    - ### <a href="https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1"> Stock span problem </a>
+        * find *next* greater element to left of each elemnt using **stack**.
+        * Time: O(N), Space: O(N);
+    - ### <a href="https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1/"> Possible Words From Phone Digits </a>
+      - Backtracking and implementation.
+      - Time: O((4^N)\*N), space:O((4^N)\*N)
 
 
     
