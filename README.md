@@ -174,5 +174,14 @@
       - Backtracking and implementation.
       - Time: O((4^N)\*N), space:O((4^N)\*N)
 
+- ## Day 13
+    - ### <a href="https://practice.geeksforgeeks.org/problems/length-of-largest-region-of-1s-1587115620/1/"> Unit Area of largest region of 1's </a>
+      * DFS, Time: O(N\*M), Space: O(N\*M)
+      
+    - ### <a href="https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1/"> Level Order Traveral </a>
+        * do Level Order Traversal and keep populating next pointer of upcomming level so can use the same next pointers to traverse that level.
+        * Time: O(N), Space: O(1);
+    - ### <a href="https://practice.geeksforgeeks.org/problems/count-number-of-subtrees-having-given-sum/1/"> Count Number of SubTrees having given Sum </a>
+      - Reccursive solution, Time: O(N), space: O(N)
 
     
