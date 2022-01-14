@@ -59,7 +59,7 @@
     
     * ### Find total number of Squares in a N*N chessboard
         - No of square of len 8 = 1, len 7 = 2^2, len i = i^2
-        - Total No of squares = 1 + 2^2 + 3^2 .... + n^2 = n(n+1)(2n+1)/6
+        - Total No of squares = ``` 1 + 2^2 + 3^2 .... + n^2 = n(n+1)(2n+1)/6 ```
 
 - ## Day 5
 
@@ -83,7 +83,7 @@
 
 - ## Day 6
     * ### <a href="https://practice.geeksforgeeks.org/problems/maximum-profit4657/1"> Maximum Profit </a>
-        - 3-D DP, dp[i][j][k], (i:index, j:no of transactions complete, k: no of stocks in hand)
+        - 3-D DP, <code>dp[i][j][k]</code>, (i:index, j:no of transactions complete, k: no of stocks in hand)
         - Time: O(N*K), Space: O(K)
 
     * ### <a href="https://leetcode.com/problems/longest-mountain-in-array/"> Longest Mountain In Array </a>
@@ -153,14 +153,14 @@
 
 - ## Day 11
     - ### <a href="https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1/#"> Minimum sum partition </a>
-      * 2-D DP, with dp relation: dp[sum][i] = dp[sum][i-1] || dp[sum-a[i]][i-1]
+      * 2-D DP, with dp relation: <code>dp[sum][i] = dp[sum][i-1] || dp[sum-a[i]][i-1]</code>
       * Time: O(N\*S), Space: O(N\*S);
       
     - ### <a href="https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1/"> Prerequisite Tasks </a>
         * Check for cycles, if there is its not possible to do all tasks.
         * Time: O(N + E), Space: O(N + E);
     - ### <a href="https://practice.geeksforgeeks.org/problems/rotate-by-90-degree0356/1/"> Rotate by 90 degree </a>
-      - Swaps the j'th column with (m-j-1)'th column. then transpose the matrix
+      - Swaps the <code>j</code>'th column with <code>(m-j-1)</code>'th column. then transpose the matrix
       - Time: O(M\*N), space:O(1)
 
 - ## Day 12
@@ -183,5 +183,18 @@
         * Time: O(N), Space: O(1);
     - ### <a href="https://practice.geeksforgeeks.org/problems/count-number-of-subtrees-having-given-sum/1/"> Count Number of SubTrees having given Sum </a>
       - Reccursive solution, Time: O(N), space: O(N)
+
+
+- ## Day 14
+    - ### <a href="https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1/"> Stickler Thief  </a>
+      * 1-D dp, ```dp[i] = max(dp[i-2], dp[i-1]+arr[i]) ```
+      * Time: O(N), Space: O(1)
+      
+    - ### <a href="https://practice.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1/"> Generate Binary Numbers </a>
+        * simulation, Time: O(N\*LogN), space: O(N\*logN)
+  
+    - ### <a href="https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1"> Find All Four Sum Numbers </a>
+      - Two nested loops for first two numbers and then two pointer on the rest of the array to find the other two.
+      - Time: O(N^3), Space:(N^4)
 
     
