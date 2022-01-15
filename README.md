@@ -1,8 +1,10 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8ESo_bXhRC4/0.jpg)](https://www.youtube.com/watch?v=8ESo_bXhRC4)
 
-## Handles
-    - leetcode: https://leetcode.com/nikhilmishra1211/
-    - gfg: https://auth.geeksforgeeks.org/user/nikhilmishra1211/practice/
+
+
+> ## My Handles
+> * <a href="https://leetcode.com/nikhilmishra1211/">Leetcode </a>
+> * <a href="https://auth.geeksforgeeks.org/user/nikhilmishra1211/practice/">GFG practice </a>
 
 # <a href="https://docs.google.com/document/d/e/2PACX-1vRgrSl5zCl8P92F0qNuJyDF9v8aqfNd1UB9fQWTb-_aohzhPbZ0GOVbXvfnGHgzbWWdkf9gr7ZgM0lj/pub"> Goldman Sachs </a>
 
@@ -197,4 +199,18 @@
       - Two nested loops for first two numbers and then two pointer on the rest of the array to find the other two.
       - Time: O(N^3), Space:(N^4)
 
+
+- ## Day 15
+
+    - ### <a href="https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1#"> Bridge edge in a graph </a>
+      - Check if can reach d from c without using edge c-d by doing **DFS** from c
+      - Time: O(N), space: O(N)
     
+    - ### <a href="https://practice.geeksforgeeks.org/problems/minimum-number-of-steps-to-reach-a-given-number5234/1/"> Minimum steps to destination </a>
+      - Min moves are required when either all the steps towards left or one all towards left except one towards left
+      - keep adding i ```curVal < D || (curVal-D) % 2 == 0```. if the diffrence between cur and D is even then one of the steps can be fliped from leftto right to reach D
+      - Time: O(N), space: O(1)
+
+    - ### <a href="https://practice.geeksforgeeks.org/problems/alien-dictionary/1/"> Alien Dictionary </a>
+      - create a graph with edges between two characters if one occurs before the other at a given index of two words with comman prefix before that index in the dictionary.
+      - Time: O(N*(M+K)) where M is length of longest word, Space: O(K*K) 
