@@ -214,3 +214,18 @@
     - ### <a href="https://practice.geeksforgeeks.org/problems/alien-dictionary/1/"> Alien Dictionary </a>
       - create a graph with edges between two characters if one occurs before the other at a given index of two words with comman prefix before that index in the dictionary.
       - Time: O(N*(M+K)) where M is length of longest word, Space: O(K*K) 
+
+
+# <a href="https://docs.google.com/document/d/1cEAe63fC3YMJRwKmCoVOIXFUaFv5LqNXedxaGpaqd6U/edit"> Adobe </a>
+
+- ## Day 16
+  - ### <a href="https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1#"> Subarray with given sum </a>
+    - Since no are positve, we can keep a sliding window, shrinking it when sum is less than target and expanding it when sum is greater than target.
+    - Time: O(N), Space: O(1)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/longest-arithmetic-progression1019/1/"> Longest Arithmetic Progression </a>
+    - keep len of logest AP sequence at each index with every dif possible using iterative DP
+    - Time: O(N*S), Space: O(N\*S), S=bound for A[i]
+  - ### <a href="https://practice.geeksforgeeks.org/problems/7b9d245852bd8caf8a27d6d3961429f0a2b245f1/1/#"> Number of distict Words with k maximum contiguous vowels </a>
+    - 2-D DP with relation: ```dp[n][k] = 21*dp[n-1][k] + 5*dp[n-1][k-1]```
+    - Time: O(N*K), Space:O(K)
+
