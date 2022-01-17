@@ -229,3 +229,14 @@
     - 2-D DP with relation: ```dp[n][k] = 21*dp[n-1][k] + 5*dp[n-1][k-1]```
     - Time: O(N*K), Space:O(K)
 
+- ## Day 17
+  - ### <a href="https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1#">Partition Equal Subset Sum </a>
+    - Check if a subset has sum totalSum/2 using standard DP approch
+    - Time: O(N*S), Space: O(N\*S)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/express-as-sum-of-power-of-natural-numbers5647/1#"> Express as sum of power of natural numbers </a>
+    - generate all powers and apply subset-sum DP
+    - Time: O(N^2), Space: O(N)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1/"> Generate Parenthesis </a>
+    - parenthesis of len n can be generated either concatination of (parenthesis of len i + parenthesis of len (n-i)) or ( "(" + parenthesis of len n-1 + ")" )
+    - DP can be used to avoid overlapping sub-problems.
+    - Time : O(N^2*S^2), Space: O(N\*S), where S is no of valid parenthesis.
