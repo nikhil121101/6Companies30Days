@@ -240,3 +240,13 @@
     - parenthesis of len n can be generated either concatination of (parenthesis of len i + parenthesis of len (n-i)) or ( "(" + parenthesis of len n-1 + ")" )
     - DP can be used to avoid overlapping sub-problems.
     - Time : O(N^2*S^2), Space: O(N\*S), where S is no of valid parenthesis.
+
+- ## Day 18
+  - ### <a href="https://practice.geeksforgeeks.org/problems/pots-of-gold-game/1/"> Pots of Gold Game </a>
+    - 2-D DP on range l to r with presum to find subarray sums in O(1)
+    - Time: O(N^2), Space: O(N)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/implement-atoi/1/"> Implement Atoi </a>
+    - simulation, Time: O(N), space: O(1)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/next-higher-palindromic-number-using-the-same-set-of-digits5859/1/"> Next higher palindromic number using the same set of digits </a>
+    - lexographically next permutation algorithm
+    - Time: O(N), space: O(1)
