@@ -250,3 +250,11 @@
   - ### <a href="https://practice.geeksforgeeks.org/problems/next-higher-palindromic-number-using-the-same-set-of-digits5859/1/"> Next higher palindromic number using the same set of digits </a>
     - lexographically next permutation algorithm
     - Time: O(N), space: O(1)
+
+- ## Day 19
+  - ### <a href="https://practice.geeksforgeeks.org/problems/winner-of-an-election-where-votes-are-represented-as-candidate-names-1587115621/1/">Winner of an Election </a>
+    - create a sorted frequency map, Time: O(N\*lognN), Space: O(N)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/amend-the-sentence3235/1"> Ammend The Sentence </a>
+    - Simulation, Time: O(N), Space: O(N)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1/"> Leaders in an array </a>
+    - Simulation, Time: O(N), Space: O(N)
