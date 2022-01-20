@@ -258,3 +258,18 @@
     - Simulation, Time: O(N), Space: O(N)
   - ### <a href="https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1/"> Leaders in an array </a>
     - Simulation, Time: O(N), Space: O(N)
+
+- ## Day 20
+  - ### <a href="https://practice.geeksforgeeks.org/problems/minimum-insertions-to-make-two-arrays-equal/1/#"> Minimum operations to convert array A to B </a>
+    - Trivial solution would be to use 2-D DP but since N could be upto 100K it will give TLE.
+    - First delete the nums in A which are not in B
+    - now we need to find LCS between A and B, and keep those elements in A and delete rest, and also add remaining numbers in B which dont occure in the LCS to make it equal to B
+    - To find the LCS with trivial 2-D DP will give TLE, but since B is already sorted, Longest increasing subsequence in A will be the LCS which can be found in O(N*LogN) time.
+    - Time: O(NlogN), Space: O(N)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1/#"> Smallest range in K lists </a>
+    - maintain a pointer array of len k which for each the k arrays keeps track of the index till which we have tried including.
+    - also maintain a priority queue of pair{num, ind} of len k which for every k array keeps the element pointer array points to
+    - pop the min element in each iteration and update the max element so far. and keep track of the min len of range so far
+    - Time: O(N\*K*\*LogK), Space: O(K)
+  - ### <a href="https://leetcode.com/problems/compare-version-numbers/"> Compare Version Numbers </a>
+    - Simulation, Time: O(N), Space: O(N)
