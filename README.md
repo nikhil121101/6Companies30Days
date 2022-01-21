@@ -273,3 +273,18 @@
     - Time: O(N\*K*\*LogK), Space: O(K)
   - ### <a href="https://leetcode.com/problems/compare-version-numbers/"> Compare Version Numbers </a>
     - Simulation, Time: O(N), Space: O(N)
+
+
+# <a href="https://docs.google.com/document/d/18oi6OlvcL3wYn20Jb9crW7NO4cGkL6vUfTvplNDGkTw/edit"> Intuit </a>
+
+- ## Day 21
+  - ### <a href="https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1/"> Minimum sum partition </a>
+    - Same as 1'st problem on Day 11
+
+  - ### <a href="https://practice.geeksforgeeks.org/problems/word-search/1/"> Word Search </a>
+    - Reccursive Backtracking from each index of grid
+    - Time: O(N\*M\*L), space: O(N\*M + L)
+
+  - ### <a href="https://practice.geeksforgeeks.org/problems/find-the-missing-no-in-string/1/"> Find the missing no in string </a>
+    - since length of num can be at most 6 check for each length from 1 to 6 and find the missing seq in any of them
+    - Time: O(N), Space: O(N) (could be reduced to O(1) but code readablity would be compromised)
