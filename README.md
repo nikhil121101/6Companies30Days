@@ -288,3 +288,18 @@
   - ### <a href="https://practice.geeksforgeeks.org/problems/find-the-missing-no-in-string/1/"> Find the missing no in string </a>
     - since length of num can be at most 6 check for each length from 1 to 6 and find the missing seq in any of them
     - Time: O(N), Space: O(N) (could be reduced to O(1) but code readablity would be compromised)
+
+
+- ## Day 22
+  - ### <a href="https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1#"> Largest number in K swaps </a>
+    - Reccursively backtrack by checkeing at each swap with maxCharatres to right.
+    - Time: O(N!/(N-K)!), Space: O(N)
+
+  - ### <a href="https://leetcode.com/problems/split-array-largest-sum/"> Split Array Larget Sum </a>
+    - Standard Binary search, binary search the largest sum of subarray
+    - Time: O(N\*log(A[i])), Space: O(1)
+
+  - ### <a href="https://leetcode.com/problems/find-in-mountain-array/"> Find in Mountain Array </a>
+    - Binary search the peak point, then do 2 saparate binary search for left and right side
+    - No of Calls: 1 + 2*log(N) + log(N) + log(N)
+
