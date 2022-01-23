@@ -303,3 +303,14 @@
     - Binary search the peak point, then do 2 saparate binary search for left and right side
     - No of Calls: 1 + 2*log(N) + log(N) + log(N)
 
+
+- ## Day 23
+  - ### <a href="https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"> Capacity to ship package within D days </a>
+    - Binary search the max weight capacity
+    - Time: O(N\*log(S)), space: O(1)
+  - ### <a href="https://leetcode.com/problems/number-of-boomerangs/"> Number of boomerangs </a>
+    - for each points store distance of other points with it in a map and for each dist add cnt[dist] * (cnt[dist]-1) to result
+    - Time: O(N^2), Space: O(1)
+  - ### <a href="https://leetcode.com/problems/pacific-atlantic-water-flow/"> Pacific Atlantic Water Flow </a>
+    - do multi-source BFS twice, once form atlanti once from pacific
+    - Time: O(N\*M), Space: O(N\*M)
