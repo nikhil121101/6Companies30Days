@@ -314,3 +314,11 @@
   - ### <a href="https://leetcode.com/problems/pacific-atlantic-water-flow/"> Pacific Atlantic Water Flow </a>
     - do multi-source BFS twice, once form atlanti once from pacific
     - Time: O(N\*M), Space: O(N\*M)
+
+- ## Day 24
+  - ### <a href="https://leetcode.com/problems/number-of-provinces/"> Number of provinces </a>
+    - DFS, time: O(N^2), Space: O(N)
+  - ### <a href="https://leetcode.com/problems/construct-quad-tree/"> Construct Quad Tree </a>
+    - Reccursive simulation, Time: O(N^2 * logN), Space: O(N^2)
+  - ### <a href="https://leetcode.com/problems/course-schedule-ii/"> Course Schedule II </a>
+    - Topological sort using DFS, Time: O(N^2), Space: O(N^2)
