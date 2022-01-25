@@ -322,3 +322,15 @@
     - Reccursive simulation, Time: O(N^2 * logN), Space: O(N^2)
   - ### <a href="https://leetcode.com/problems/course-schedule-ii/"> Course Schedule II </a>
     - Topological sort using DFS, Time: O(N^2), Space: O(N^2)
+
+- ## Day 25
+  - ### <a href="https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/"> Minimum Swaps to Arrange a Binary Grid </a>
+    - The task can be converted to sorting the array of index of last occurance of 1 in each row with min no of adjacent swap.
+    - it can be greedely solved by iterating i from 0 to n-1 and if the condition is not met look for j > i which satisfies the condition and bring it at i with j-i swaps.
+    - Time: O (N^2), Space: O(N)
+  - ### <a href="https://leetcode.com/problems/as-far-from-land-as-possible/submissions/"> As Far from Land as Possible </a>
+    - Multi-source BFS with intially all the lands in queue and pushing reachable waters in each iteration.
+    - Time: O(N\*N), Space: O(N\*N);
+  - ### <a href="https://leetcode.com/problems/koko-eating-bananas/"> Koko Eating Bananas </a>
+    - Binary search the speed k and check if with this speed can koko eat all bananas within h hours.
+    - Time: O(N\*Log(H)), Space: O(1), H -> max val height possible
