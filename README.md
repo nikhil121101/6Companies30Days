@@ -334,3 +334,15 @@
   - ### <a href="https://leetcode.com/problems/koko-eating-bananas/"> Koko Eating Bananas </a>
     - Binary search the speed k and check if with this speed can koko eat all bananas within h hours.
     - Time: O(N\*Log(H)), Space: O(1), H -> max val height possible
+
+# <a href="https://docs.google.com/document/d/1XsyXdufDAK1C6PbC0KNeO95ydbH8qlsGnkyThkS-1bs/edit"> Walmart </a>
+
+- ## Day 26
+  - ### <a href="https://leetcode.com/problems/path-with-maximum-probability/"> Path with Maximum Probability </a>
+    - Dijkstra, Time: O(N + M\*Log(M)), Space(N + M)
+  - ### <a href="https://leetcode.com/problems/stone-game/"> Stone Game </a>
+    - Trivial approch is to use standard 2-D DP approch, although there's a catach because alice always wins so could be solved in O(1) time too. 
+    - Time: O(N\*N), space:O(N\*N) (could be reduced to O(N))
+  - ### <a href="https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/"> Remove Colored Pieces if Both Neighbors are the Same Color </a>
+    - count the no of 'A's alice and remove and no of 'B's bob can remove for alice to win it's count should be greater
+    - Time:O(N), space: O(1)
