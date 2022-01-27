@@ -346,3 +346,13 @@
   - ### <a href="https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/"> Remove Colored Pieces if Both Neighbors are the Same Color </a>
     - count the no of 'A's alice and remove and no of 'B's bob can remove for alice to win it's count should be greater
     - Time:O(N), space: O(1)
+
+- ## Day 27
+  - ### <a href="https://practice.geeksforgeeks.org/problems/number-of-unique-paths5339/1/"> Number of Unique Paths </a>
+    - Trivial 2-D DP, Time: O(N\*N), space:O(N\*N)(could be reduced to O(N))
+  - ### <a href="https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1/"> Transform to Sum Tree </a>
+    - reccursive subree sum, Time:O(N), Space:O(N)
+
+  - ### <a href="https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1/?company[]=Walmart&company[]=Walmart&page=1&query=company[]Walmartpage1company[]Walmart#"> Power Of Numbers </a>
+    - Divide and Conquer approch, for pow(a, b) if b is odd then return a*pow(a,b-1) else if b is even return pow(a, b/2)**2
+    - Time: O(Log(N)), Space: O(log(N))
