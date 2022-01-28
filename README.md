@@ -356,3 +356,15 @@
   - ### <a href="https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1/?company[]=Walmart&company[]=Walmart&page=1&query=company[]Walmartpage1company[]Walmart#"> Power Of Numbers </a>
     - Divide and Conquer approch, for pow(a, b) if b is odd then return a*pow(a,b-1) else if b is even return pow(a, b/2)**2
     - Time: O(Log(N)), Space: O(log(N))
+  
+- ## Day 28
+  - ### <a href="https://practice.geeksforgeeks.org/problems/sorted-subsequence-of-size-3/1/#"> Sorted subsequence of size 3 </a>
+    - Keep track of min num for first and second positions so far 
+    - Time: O(N), Space: O(1)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/maximum-height-tree4803/1/?page=2&company[]=Walmart&query=page2company[]Walmart"> Maximum Height Tree </a>
+    - Shitty problem with mistake in problem statement itself.
+  - ### <a href="https://leetcode.com/problems/guess-number-higher-or-lower-ii/"> Guess Number Higher or Lower II </a>
+    - for any range l to r try out choosing all numbers and in that range an choose one with min wors case cost.
+    - Use memoization to avoid recalcuationg same range twice
+    - Time: O(N\*N), space: O(N\*N)
+
