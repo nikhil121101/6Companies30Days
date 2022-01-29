@@ -368,3 +368,17 @@
     - Use memoization to avoid recalcuationg same range twice
     - Time: O(N\*N), space: O(N\*N)
 
+- ## Day 29 
+  - ### <a href="https://leetcode.com/problems/generate-random-point-in-a-circle/"> Generate Random Point in a Circle </a>
+    - User poler cordinates and generatre random radius and theta possible ranges. 
+    - Time: O(1), Space: O(1)
+  - ### <a href="https://leetcode.com/problems/maximum-performance-of-a-team/"> Maximum Performance of a Team </a>
+    - sort the engineers in incrasing order of efficiency and iterate in reverse order and choose atmost k  engineeres to right of current index with maximum sum of speeds using prioirity queue.
+    - Time: O(N\*LogN), Space: O(N)
+
+  - ### <a href="https://leetcode.com/problems/find-array-given-subset-sums/"> Find Array Given Subset Sums </a>
+    - The idea is to divide the subset array into two halfs each time to get a number of original array such that the the that number if present in one half but not in other.
+    - for more explation refer <a href="https://leetcode.com/problems/find-array-given-subset-sums/discuss/1431457/Easy-Explanation-for-Noobs-%2B-Python-code-with-comments"> here </a>
+    - Time: O(N*(2^N)), Space: O(2^N)
+  
+
