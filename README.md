@@ -380,5 +380,14 @@
     - The idea is to divide the subset array into two halfs each time to get a number of original array such that the the that number if present in one half but not in other.
     - for more explation refer <a href="https://leetcode.com/problems/find-array-given-subset-sums/discuss/1431457/Easy-Explanation-for-Noobs-%2B-Python-code-with-comments"> here </a>
     - Time: O(N*(2^N)), Space: O(2^N)
-  
+
+- ## Day  30
+  - ### <a href="https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/"> Find the Kth Largest Integer in the Array </a>
+    - We can simply sort the array and get the kth element from the end or we can use quickelect.
+    - Time: O(N*M), Space: O(1)
+  - ### <a href="https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1/"> Largest number in K swaps </a>
+    - Same as 1'st problem on Day 22
+  - ### <a href="https://leetcode.com/problems/divide-two-integers/"> Divide Two Integers </a>
+    - use left shift to increase divsor till its less than divident and reccursively do same for the remainder part.
+    - Time: O(logN), Space: O(1)
 
